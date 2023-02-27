@@ -1,0 +1,52 @@
+.main-container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container-login .input-cont-login {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.tab-prod {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tab-prod thead tr th {
+    padding: 10px !important;
+}
+
+.tab-prod thead {
+    background: rgb(217, 215, 215);
+}
+
+.tab-prod tbody {
+    background: rgb(238, 238, 238);
+    padding: 10px !important;
+}
+
+.tab-prod tbody tr td {
+    padding: 10px !important;
+}
+
+.head-logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.head-logout h1{
+  margin-right: 10px;
+}
+.bodyofCard {
+    background-color: rgb(226, 226, 226);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 0 !important;
+}

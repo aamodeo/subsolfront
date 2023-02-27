@@ -1,0 +1,296 @@
+.transactionMain .tHistoryRow1 {
+    display: flex;
+    align-items: center;
+}
+.transactionMain .tHistoryRow1.pRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transactionMain .tHistoryRow1 h6{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.transactionMain .tHistoryRow1 .tFilM{
+    display: flex;
+    align-items: center;
+}
+.transactionMain .tHistoryRow1 .tFilM .fil{
+    padding: 6px 8px;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #69797F;
+}
+.transactionMain .searchRow{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 16px;
+}
+.transactionMain .navbar-search{
+    max-width: 360px;
+    width: 100%;
+}
+.transactionMain .searchRow .col2{
+    display: flex;
+    align-items: center;
+}
+.transactionMain .searchRow .col2 .btn{
+    box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    color: #000000;
+    opacity: 0.5;
+}
+.transactionDetailMain {
+    position: fixed;
+    min-height: 100vh;
+    right: -550px;
+    top: 0;
+    width: 550px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.08);
+    border-radius: 24px 0px 0px 24px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    z-index: 10;
+}
+.transactionDetailMain .heading {
+    font-size: 18px;
+    color: #022045;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.transactionDetailMain .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.font-bold {
+    font-weight: bold;
+}
+.transactionDetailMain .row1 .col1{
+    font-size: 12px;
+}
+.transactionDetailMain .row1 .col2{
+    font-size: 16px;
+    color: #022045;
+}
+.transactionDetailMain .row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.transactionDetailMain .row2 .transD{
+    background: #E6F6EF;
+    border-radius: 8px;
+    color: #022045;
+    font-size: 12px;
+    padding: 6px;
+}
+.transactionDetailMain .row2 .transD span{
+    font-size: 14px;
+}
+.merchantDetailMain {
+    position: fixed;
+    min-height: 100vh;
+    right: -550px;
+    top: 0;
+    width: 550px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.08);
+    border-radius: 24px 0px 0px 24px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    z-index: 10;
+}
+.merchantDetailMain .heading {
+    font-size: 18px;
+    color: #022045;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.merchantDetailMain .row1 {
+    display: flex;
+    align-items: center;
+}
+.merchantDetailMain .row1 .col1 {
+   font-size: 24px;
+   color: #022045;
+   margin-right: 6px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+.merchantDetailMain .row1 .col2 {
+    background: #E6F6EF;
+    border-radius: 18px;
+    padding: 4px 10px;
+    color: #022045;
+    font-size: 12px;
+}
+.merchantDetailMain .row1 .col2 span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.merchantDetailMain .emailMain{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.merchantDetailMain .row2{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.merchantDetailMain .row2 .transD{
+    background: rgba(196, 211, 218, 0.2);
+    border-radius: 20px;
+    padding: 4px 10px;
+    color: #022045;
+    font-size: 12px;
+    margin-right: 6px;
+
+}
+.merchantDetailMain .row2 .transD span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.merchantDetailMain .row4{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.merchantDetailMain .row4 .transD{
+    background: rgba(196, 211, 218, 0.2);
+    border-radius: 20px;
+    color: #022045;
+    font-size: 12px;
+    padding: 3px 10px;
+    margin-right: 6px;
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.merchantDetailMain .row4 .transD span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.merchantDetailMain .mdFill {
+    display: flex;
+    align-items: center;
+}
+.merchantDetailMain .mdFill .lin{
+    color: #69797F;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.merchantDetailMain .mdFill .lin.active{
+    font-weight: bold;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.transactionDetailMain .row3 .tAmount{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(196, 211, 218, 0.2);
+    padding: 3px 10px;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.transactionDetailMain .row3 .tAmount .title{
+    font-size: 10px;
+}
+.transactionDetailMain .row3 .tAmount .amount{
+    font-size: 16px;
+    font-weight: bold;
+}
+.transactionDetailMain .row3 .tAmount .amount span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.transactionDetailMain .name{
+    font-size: 12px;
+    color: #69797F;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.transactionDetailMain .desc{
+    font-size: 18px;
+    color: #022045;
+    margin-bottom: 25px;
+}
+.transactionDetailMain .trTitle{
+    font-size: 12px;
+    color: #69797F;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.transactionDetailMain .trCard{
+    background: rgba(196, 211, 218, 0.2);
+    border-radius: 12px;
+    padding: 20px 10px;
+}
+.transactionDetailMain .trCard .rowT:last-child{
+    margin-bottom: 0;
+}
+.transactionDetailMain .trCard .rowT{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.transactionDetailMain .trCard .rowT::before{
+    content: '';
+    border-bottom: 1px dashed #C4D3DA;
+    width: 47%;
+    top: 12px;
+    right: 98px;
+    position: absolute;
+}
+.transactionDetailMain .trCard .rowT .col1{
+    position: relative;
+    padding-right: 8px;
+    background: #f3f6f8;
+    color: #022045;
+    font-size: 14px;
+}
+.transactionDetailMain .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.merchantDetailMain .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+@media (max-width:576px){
+    .transactionDetailMain {
+        width: 100%;
+    }
+    .merchantDetailMain {
+        width: 100%;
+    }
+    .merchantDetailMain .row2 {
+        flex-wrap: wrap;
+    }
+    .merchantDetailMain .row2 .transD {
+        margin-bottom: 5px;
+    }
+    .merchantDetailMain .emailMain {
+        flex-wrap: wrap;
+    }
+}

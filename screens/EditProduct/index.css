@@ -1,0 +1,25 @@
+.main-container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-container-login .input-cont-login {
+    margin-bottom: 20px;
+    width: 80%; 
+}
+.main-container-login .input-cont-login-flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 80%;
+    align-items: center;
+}
+.select-1-field {
+    width: 100%;
+}
+.select-1-selectinp {
+    margin-left: 10px;
+    width: 50%;
+}
+

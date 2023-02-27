@@ -1,0 +1,469 @@
+.registerPage {
+    display: flex;
+    min-height: 100vh;
+    max-width: 1500px;
+    margin: auto;
+}
+.registerPage .col1 {
+    padding: 55px;
+    padding-top: 130px;
+    width: 35%;
+}
+.registerPage .col2 {
+    width: 65%;
+}
+.registerPage .formMain {
+    max-width: 400px;
+    margin: auto;
+}
+.registerPage .formMain h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.registerPage .formMain .desc{
+    color: rgba(0, 0, 0, 0.57);
+    margin-bottom: 40px;
+}
+.registerPage .formMain .dropdown {
+    position: relative;
+}
+.registerPage .formMain .dropdown .arrow{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    transform: rotate(-90deg);
+}
+.registerPage .formMain .dropdown .dropdown-toggle:focus,.registerPage .formMain .dropdown .dropdown-toggle:active {
+    outline: none !important;
+    border: none !important;
+}
+.registerPage .formMain .dropdown .dropdown-toggle {
+    text-align: left;
+    padding-left: 0;
+    font-weight: bold;
+    outline: none !important;
+    border: none !important;
+}
+.w-20 {
+    width: 20px;
+}
+.registerPage .formMain .dropdown .dropdown-toggle:after {
+    content: unset;
+}
+.registerPage .formMain .dropdown .dropdown-menu{
+    width: 92%;
+}
+.registerPage .formMain .input{
+    width: 100%;
+    background: #FAFBFA;
+    border-radius: 16px;
+    border: none;
+    padding: 13px;
+    height: 65px;
+}
+.registerPage .formMain input{
+    width: 100%;
+    background: #FAFBFA;
+    border-radius: 16px;
+    border: none;
+    padding: 13px;
+    height: 65px;
+    font-weight: bold;
+}
+.registerPage .formMain input:focus{
+    background: #FFFFFF;
+    border: 1px solid #04A55E;
+    box-shadow: 0px 0px 0px 3px rgba(4, 165, 94, 0.12);
+}
+.registerPage .formMain .inputTitle{
+    color: #000;
+}
+.floating-label-group {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.floating-label-group {
+	position: relative;
+}
+.registerPage .formMain .floating-label-group .colorPicker .css-1yn2e29-InputColor{
+    padding: 0;
+    border: none;
+    width: 22px;height: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+}
+.registerPage .formMain .floating-label-group .colorPicker {
+    position: absolute;
+    right: 15px;
+    top: 21px;
+}
+.floating-label-group .floating-label {
+	font-size: 16px;
+    font-weight: 500;
+	color: rgba(65, 77, 82, 1);
+	position: absolute;
+	pointer-events: none;
+	top: 22px;
+	left: 14px;
+	transition: all 0.1s ease;
+}
+
+.floating-label-group input:focus ~ .floating-label,
+.floating-label-group input:not(:focus):valid ~ .floating-label {
+		top: 5px;
+		bottom: 0px;
+		left: 14px;
+		font-size: 12px;
+		opacity: 1;
+		color: #404040;
+}
+.floating-label-group input:placeholder-shown ~ .floating-label {
+		top: 5px;
+		bottom: 0px;
+		left: 14px;
+		font-size: 12px;
+		opacity: 1;
+		color: #404040;
+}
+.registerPage .privacy {
+    display: flex;
+    align-items: flex-start;
+}
+.registerPage .privacy input{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.registerPage .privacy p{
+    color: rgba(65, 77, 82, 1);
+    font-size: 13px;
+    margin: 0;
+}
+.registerPage .privacy p a{
+    color: rgba(4, 165, 94, 1);
+    font-weight: 600;
+}
+.registerPage .contBtn {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid rgba(4, 165, 94, 1);
+    border-radius: 10px;
+    background: rgba(4, 165, 94, 1);
+    height: 50px;
+    margin: 18px 0;
+}
+.registerPage .already {
+    color: #000;
+}
+.registerPage .already a{
+    color: rgba(4, 165, 94, 1);
+    font-weight: 600;
+}
+.registerPage .col2 {
+    padding: 10px;
+}
+.registerPage .col2 .subscriptionMain{
+    height: 100vh;
+    min-height: 900px;
+    background: url(../../assets/images/subcriptionBanner.png);
+    background-size: cover;
+    border-radius: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.registerPage .col2 .subscriptionMain2{
+    position: relative;
+    height: 100vh;
+    min-height: 850px;
+    background: url(../../assets/images/subcriptionBanner2.png);
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.registerPage .col2 .subscriptionMain2 .logo{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.registerPage .col2 .logo{
+    padding: 20px;
+    text-align: right;
+}
+.registerPage .col2 .cryptoLogo img{
+    width: 100%;
+}
+.registerPage .col2 .content{
+    max-width: 530px;
+    padding: 50px;
+}
+.registerPage .col2 .content h1{
+    color: rgba(230, 246, 239, 1);
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.registerPage .col2 .content p{
+    color: #E6F6EF;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.otpModalMain {
+    padding: 10px;
+}
+.otpModalMain .logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.otpModalMain .title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.otpModalMain .desc{
+    color: rgba(105, 121, 127, 1);
+    margin-bottom: 30px;
+}
+.otpModalMain .desc a{
+    color: rgba(4, 165, 94, 1);
+}
+.otpModalMain .resend{
+    color: #024527;
+    text-align: center;
+    margin: 25px 0;
+}
+.otpModalMain .resend span{
+    color: #04A55E;
+}
+.otpModalMain .contBtn {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid rgba(4, 165, 94, 1);
+    border-radius: 10px;
+    background: rgba(4, 165, 94, 1);
+    height: 50px;
+}
+.otpModalMain .otpInputMain {
+    display: flex;
+    justify-content: center;
+}
+.otpModalMain .otpInputMain input:not(:empty){
+    background-color: #fff;
+}
+.otpModalMain .otpInputMain input {
+    /* background-color: #E6F6EF; */
+    color: #04A55E;
+    border: 1px solid #ACBCC4;
+    border-radius: 16px;
+    width: 63px !important;
+    height: 70px;
+    font-size: 34px !important;
+}
+.otpModalMain .otpInputMain input:focus {
+    border: 1px solid #04A55E !important;
+    box-shadow: 0px 0px 0px 3px rgba(4, 165, 94, 0.12);
+    outline: none !important;
+}
+.modal-content {
+    background: #FFFFFF;
+    border: 1px solid #F0F1F5 !important;
+    box-shadow: 0px 24px 48px -32px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 24px !important;
+}
+.modal {
+    backdrop-filter: blur(9px);
+}
+.registerPage .formMain .alert {
+    background: #E6F6EF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-size: 14px;
+    color: #414D52; 
+    display: flex;
+}
+.registerPage .backBtn {
+    height: 50px;
+    background: #FDFEFF;
+    border: 1px solid #C4D3DA;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.ai-center {
+    align-items: center;
+}
+
+.registerPage .col2 .subscriptionMain2 .walletAdCard{
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 57%;
+    margin: auto;
+}
+.registerPage .col2 .subscriptionMain2 .walletAdCard h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #022045;
+}
+.registerPage .col2 .subscriptionMain2 .walletAdCard h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #022045;
+}
+.registerPage .col2 .subscriptionMain2 .walletAdCard p{
+    color: #556369;
+    margin-bottom: 0;
+}
+.registerPage .col2 .subscriptionMain2 .walletAdCard .adText{
+    padding: 14px 0;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px dashed #95A6AD;
+}
+.registerPage .col2 .subscriptionMain2 .walletAdCard .adText img{
+    margin-right: 10px;
+
+}
+.registerPage .col2 .subscriptionMain2 .pButtonMain .designBtn.bgGreen{
+    background: #04A55E;
+}
+.registerPage .col2 .subscriptionMain2 .pButtonMain .designBtn{
+    border: none;
+    /* box-shadow: 0px 24px 24px -16px rgba(4, 165, 94, 0.4); */
+    border-radius: 16px;
+    width: 100%;
+    padding: 17px;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-weight: bold;
+    margin: 55px 0;
+}
+
+.registerPage .col2 .subscriptionMain2 .pButtonMain .detail{
+    padding: 15px 0;
+    border-top: 1px dashed #C4D3DA;
+    color: #022045;
+}
+.registerPage .formMain .cutomizePlan {
+    padding-top: 10px;
+    border-top: 0.5px dashed rgba(0, 0, 0, 0.4);
+}
+.registerPage .formMain .cutomizePlan h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.registerPage .formMain .cutomizePlan p{
+    font-size: 14px;
+    color: #556369;
+}
+.registerPage .formMain .toggleRow {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 0.5px dashed rgba(0, 0, 0, 0.4);
+}
+.registerPage .formMain .toggleRow p{
+    color: #000;
+    font-size: 14px;
+}
+.registerPage .formMain .toggleRow .toggleBtn{
+    width: 40px;
+    height: 22px;
+    background: #D4D4D4;
+    border-radius: 30px;
+    padding: 2px;
+    transition:all 0.3s
+}
+.registerPage .formMain .toggleRow .toggleBtn .circle{
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 50%;
+    transition:all 0.3s;
+    margin-top: 0;
+    border: none;
+}
+.registerPage .formMain .toggleRow .bgToggle {
+    background: #04A55E !important;
+}
+.ml-18 {
+    margin-left: 18px;
+}
+.registerPage .formMain .codeSnipCard {
+    background: #FDFEFF;
+    border: 0.5px solid #C4D3DA;
+    border-radius: 12px;
+    padding: 5px;
+}
+.registerPage .formMain .codeSnipCard .row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.registerPage .formMain .codeSnipCard .row1 .codep{
+    font-size: 18px;
+    font-weight: bold;
+}
+.registerPage .formMain .codeSnipCard .row1 .seeDoc{
+    font-size: 16px;
+    font-weight: 500;
+    color: #04A55E;
+    border-bottom: 1px solid #04A55E;
+}
+.registerPage .formMain .codeSnipCard .codeSnip{
+    background: rgba(230, 246, 239, 0.5);
+    border-radius: 16px;
+    font-size: 12px;
+    padding: 10px;
+    white-space: pre-line;
+}
+.registerPage .formMain .codeSnipCard .btnMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 6px;
+    border-top: 0.5px dashed #C4D3DA;
+    margin-top: 6px;
+}
+.registerPage .formMain .codeSnipCard .btnMain button{
+    background: #E6F6EF;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #04A55E;
+    font-weight: bold;
+    font-size: 13px;
+    width:45%;
+    min-width: max-content;
+    border: 1px solid #E6F6EF;
+}
+.transactionMain .darkDiv {
+    color: #022045 !important;
+    opacity: 1;
+    font-weight: 600 !important;
+    font-size: 14px;
+    width: max-content;
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .registerPage .col1 {
+        width: 40%;
+    }
+    .registerPage .col2 {
+        width: 60%;
+    }
+}
+
+
+

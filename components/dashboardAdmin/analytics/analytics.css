@@ -1,0 +1,132 @@
+.analyticsPage {
+    margin-bottom: 30px;
+}
+.analyticsPage .row1Main{
+    background: #fff;
+    border: 1px solid #F5F5F5;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.analyticsPage .heading {
+    color: #414D52;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
+.analyticsPage .recharts-cartesian-axis-tick {    
+    font-size: 9px;
+    color: #95A6AD;
+}
+.analyticsPage .subsChart {    
+    padding: 20px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+.analyticsPage .subsChart .row1 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.analyticsPage .subsChart .row1 p{ 
+    font-weight: bold;
+    color: #022045;
+    font-size: 14px;
+    margin-bottom: 0;
+}   
+.analyticsPage .subsChart .row2 { 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}   
+.analyticsPage .subsChart .row2 .col1 { 
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.analyticsPage .subsChart .row2 .col2 { 
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.analyticsPage .subsChart .row2 .col3 { 
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.analyticsPage .subsChart .row2 .col4 { 
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.analyticsPage .subsChart .row2 .col1 span{ 
+    background: #04A55E;
+    display: inline-block;
+    width: 18px;
+    height: 6px;
+}   
+.analyticsPage .subsChart .row2 .col5 { 
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.analyticsPage .subsChart .row2 .col5 span{ 
+    background: #04A55E;
+    display: inline-block;
+    width: 18px;
+    height: 6px;
+}   
+.analyticsPage .subsChart .row2 .col2 span{ 
+    background: #044BA5;
+    display: inline-block;
+    width: 18px;
+    height: 6px;
+}   
+.analyticsPage .subsChart .row2 .col3 span{ 
+    background: #C2514B;
+    display: inline-block;
+    width: 18px;
+    height: 6px;
+}   
+.analyticsPage .subsChart .row2 .col4 span{ 
+    background: #FFC95B;
+    display: inline-block;
+    width: 18px;
+    height: 6px;
+}   
+.analyticsPage .subsChart .chart {    
+    height: 250px;
+}
+.analyticsPage .subsChart .chart2 {    
+    height: 350px;
+}
+.analyticsPage .smChartRow{    
+    display: flex;
+}
+.analyticsPage .smCard {
+    width: 50%;    
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+}
+.analyticsPage .smCard .smCart{
+    height: 60px;
+}
+.w135 {
+    width: 40%;
+}
+.analyticsPage .num{
+    color: #022045;
+    font-weight: bold;
+    font-size: 24px;
+}
+.br-16 {
+    border-radius: 16px;
+}
+@media(max-width:768px){
+    .sidebar-dark .nav-item .nav-link.profileLink{
+        flex-direction: column;
+    }
+}

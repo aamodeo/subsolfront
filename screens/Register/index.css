@@ -1,0 +1,21 @@
+.main-container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-container-login .input-cont-login {
+    margin-bottom: 20px;
+    width: 80%;
+}
+.main-container-login .button-cont-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.main-container-login .button-cont-login div {
+    margin-right: 10px;
+}
